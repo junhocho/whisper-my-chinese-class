@@ -14,6 +14,6 @@
 
 ## To do
 
-[ ] Find out token consumption using OpenAI Tiktoken.
-[ ] Use chatGPT to translate.
-[ ] Find another app for flash card.
+- [ ] Find out token consumption using OpenAI Tiktoken.
+- [ ] Use chatGPT to translate.
+- [ ] Find another app for flash card.
