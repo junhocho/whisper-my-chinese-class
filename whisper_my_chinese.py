@@ -38,8 +38,9 @@ else:
     print("Transcript file does not exist, creating it with OpenAI")
     # if transcript_file does not exist, create i
     transcript = openai.Audio.transcribe("whisper-1", audio_opened, prompt="让我们开始今天的中文课吧。", language='zh')
+    transcript = transcript.text
     with open(transcript_file, "w") as f:
-        f.write(transcript.text)
+        f.write(transcript)
 
 
 # replace comman with space
