@@ -12,8 +12,9 @@
 - Dump to json, possibly use Flash card app to memorize easily. 
   - [Olosia](https://olosia.com) is buggy when too many cards input.
 
+
 ## To do
 
 - [ ] Find out token consumption using OpenAI Tiktoken.
-- [ ] Use chatGPT to translate.
+- [ ] Use chatGPT to translate. Need better prompting.
 - [ ] Find another app for flash card.
